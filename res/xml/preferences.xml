@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">    
+    <PreferenceCategory
+        android:title="@string/pref_settings">
+        
+        <CheckBoxPreference
+            android:key="pref_enableVibration"
+            android:title="@string/pref_enableVibrationTitle"
+            android:summary="@string/pref_enableVibrationSummary"
+            android:checked="true">
+        </CheckBoxPreference>
+        
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:title="@string/pref_vib_density">
+        
+        <SeekBarPreference
+            android:key="pref_vib_density_number"
+			android:title="@string/pref_vib_density_number"            
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:max="500"
+			android:minWidth="250px"  />
+        
+        <SeekBarPreference
+            android:key="pref_vib_density_result"
+			android:title="@string/pref_vib_density_result"            
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:max="500"
+			android:minWidth="250px"  />
+        
+        <SeekBarPreference
+            android:key="pref_vib_density_error"
+			android:title="@string/pref_vib_density_error"            
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:max="500"
+			android:minWidth="250px"  />
+        
+    </PreferenceCategory>
+
+</PreferenceScreen>

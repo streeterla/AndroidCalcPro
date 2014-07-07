@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">AndroidCalcPro</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">AndroidCalc</string>
+    <string name="errorCalc">ERROR!</string>
+    <string name="pref_settings">Settings</string>
+    <string name="pref_enableVibrationTitle">Haptic Feedback</string>
+    <string name="pref_enableVibrationSummary">Enable Vibration</string>
+    <string name="exit">Exit</string>
+    <string name="pref_vib_density">Vibration Density</string>
+    <string name="pref_vib_density_number">for number buttons</string>
+    <string name="pref_vib_density_result">for result button</string>
+    <string name="pref_vib_density_error">if an error occurs</string>
+
+</resources>
